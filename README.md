@@ -28,7 +28,39 @@ The model is based on an inception-like architecture with the following features
 
 ## Training and Results
 
-[Your content for the Training and Results section goes here. You might want to include information about the dataset used, training process, evaluation metrics, and any notable results or insights gained from the model's performance.]
+### Dataset
+
+The dataset used for this project consists of chest X-ray images classified into two categories: 'pneumonia' and 'normal'. The images were split into training and validation sets, with 80% used for training and 20% for validation.
+
+### Training Process
+
+The model was trained using an inception-like architecture inspired by Google's Inception network. Training was performed for up to 100 epochs, but due to the EarlyStopping callback with a patience of 1, training stopped at epoch 7. The callback monitored the validation loss (`val_loss`) and restored the best weights to prevent overfitting.
+
+The training process included:
+
+- **Optimizer**: Adam with a learning rate of 5e-5.
+- **Loss Function**: Binary Cross-Entropy.
+- **Metrics**: Accuracy, Precision, Recall, F1-score.
+
+### Evaluation Metrics
+
+After training, the model's performance was evaluated on the validation set. The following metrics were achieved:
+
+- **Precision**: 0.9766
+- **Recall**: 0.9790
+- **F1-score**: 0.9778
+- **Accuracy**: 0.9771
+- **Loss**: 0.0765
+
+These metrics indicate that the model performs exceptionally well in distinguishing between pneumonia and normal X-rays. The high precision and recall values suggest that the model is effective at correctly identifying both classes with a low rate of false positives and false negatives.
+
+### Notable Results and Insights
+
+- **Early Stopping**: The use of EarlyStopping with patience 1 and monitoring `val_loss` was effective in preventing overfitting, as indicated by the performance metrics.
+- **High Performance**: The model achieved a high accuracy of 97.71% and very strong precision and recall scores, demonstrating its robustness and reliability in classifying chest X-ray images.
+
+Overall, the results demonstrate that the inception-like model is highly capable of performing binary classification on chest X-ray images, achieving both high accuracy and balanced performance across key metrics.
+
 
 ## Getting Started
 
