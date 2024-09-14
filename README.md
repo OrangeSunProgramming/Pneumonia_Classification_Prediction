@@ -34,7 +34,7 @@ The model is based on an inception-like architecture with the following features
 
 1. Clone this repository:
 
-  - git clone https://github.com/your-username/pneumonia-classification.git
+  - git clone https://github.com/OrangeSunProgramming/pneumonia-classification.git
   - cd pneumonia-classification
 
 
@@ -66,4 +66,4 @@ This project is licensed under the [Apache License 2.0](https://opensource.org/l
 
 ## Contact
 
-For any inquiries or further information, please feel free to contact me at [marcosmasipcompany@gmail.com].
+For any inquiries or further information, please feel free to contact me at marcosmasipcompany@gmail.com.
