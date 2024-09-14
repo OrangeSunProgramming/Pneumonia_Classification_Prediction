@@ -1,7 +1,7 @@
 Model Accuracy Scores
 =====================
 
-Precision: 0.9766
-Recall: 0.9790
-F1-score: 0.9778
+Precision: 0.9766 (Out of all instances predicted as "pneumonia," 97.66% were correctly identified.)
+Recall: 0.9790 (Out of all actual "pneumonia" cases, 97.90% were correctly detected by the model.)
+F1-score: 0.9778 (The harmonic mean of precision and recall, indicating a balanced performance between correctly predicted pneumonia cases and actual pneumonia cases at 97.78%.)
 Accuracy: 97.71%
