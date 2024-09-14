@@ -4,7 +4,7 @@
 
 This repository showcases a deep learning project for binary classification of chest X-rays to determine whether they indicate 'pneumonia' or 'normal'. The model is inspired by Google's Inception architecture, leveraging inception-like modules to efficiently capture a wide range of features from the X-ray images.
 
-The dataset that made this project possible is the [Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification](https://data.mendeley.com/datasets/rscbjbr9sj/2), published on 6 January 2018, Version 2, with DOI: 10.17632/rscbjbr9sj.2. This dataset, contributed by Daniel Kermany, Kang Zhang, and Michael Goldbaum, includes labeled chest X-ray images crucial for training and evaluating the model.
+The dataset that made this project possible is the [Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification](https://data.mendeley.com/datasets/rscbjbr9sj/2), published on 6 January 2018, Version 2, with DOI: 10.17632/rscbjbr9sj.2. This dataset, contributed by Daniel Kermany, Kang Zhang, and Michael Goldbaum, is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). It includes labeled chest X-ray images crucial for training and evaluating the model.
 
 
 ## Dataset
