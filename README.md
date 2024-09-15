@@ -6,6 +6,12 @@ This repository showcases a deep learning project for binary classification of c
 
 The dataset that made this project possible is the [Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification](https://data.mendeley.com/datasets/rscbjbr9sj/2), published on 6 January 2018, Version 2, with DOI: 10.17632/rscbjbr9sj.2. This dataset, contributed by Daniel Kermany, Kang Zhang, and Michael Goldbaum, is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). It includes labeled chest X-ray images crucial for training and evaluating the model.
 
+## Run in Google Colab
+
+If you'd like to run this project in Google Colab, click the badge below:
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OrangeSunProgramming/Pneumonia_Classification_Prediction/blob/main/notebooks/chest_xray_classification.ipynb)
+
 
 ## Dataset
 
